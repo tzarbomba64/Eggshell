@@ -1,0 +1,13 @@
+name = KeyGenerator
+
+(
+import random, string
+
+def key():
+    """Print random key."""
+    alphabet = string.ascii_letters + string.digits
+    rand_str = ''.join(random.choices(alphabet, k=10))
+    print(rand_str)
+)
+commands
+key = key
