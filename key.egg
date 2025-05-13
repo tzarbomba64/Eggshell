@@ -1,8 +1,17 @@
-name = KeyGenerator
+name = NumPrint
 
 (
-t = ['1', '2', '3']
-print["#{t}"]
+import random
+
+def print():
+    # Generate a random sequence of 10 numbers
+    sequence = [random.randint(0, 9) for _ in range(10)]
+    # Print the generated sequence
+    __builtins__.print(sequence)
+
+# Call the function
+print()
+
 )
 commands
-#T = ##t
+print = prnt
