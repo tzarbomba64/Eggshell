@@ -9,7 +9,6 @@ def print():
     # Print the generated sequence
     __builtins__.print(sequence)
 
-# Call the function
 print()
 
 )
